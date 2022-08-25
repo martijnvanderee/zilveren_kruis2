@@ -3,7 +3,7 @@ Deze code challenge bestaat uit 2 delen, namelijk scripting en styling. Je kunt 
 van het onderdeel. Hier vind je verdere instructie over de inhoud van de opdracht.
 
 ## Randvoorwaarden
-- Om de challenge gelijkwaardig te houden voor alle kandidaten verwachten we dat je niet meer dan 2 - max 4 uur aan de challenge besteedt. Nog niet klaar met alle requirements na 4 uur? Geen probleem, stuur gewoon in wat je hebt. We vinden kwaliteit en oog voor details veel belangrijker dan dat je alle requirements hebt gerealiseerd.
+- Om de challenge gelijkwaardig te houden voor alle kandidaten verwachten we dat je niet meer dan 2 uur aan de challenge besteedt. Nog niet klaar met alle requirements na 2 uur? Geen probleem, stuur gewoon in wat je hebt. We vinden kwaliteit en oog voor details veel belangrijker dan dat je alle requirements hebt gerealiseerd.
 - Maak een fork van deze Github naar je eigen Github account en push jouw oplossing.
 
 ## Technische details
