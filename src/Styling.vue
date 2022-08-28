@@ -44,52 +44,143 @@
                 <div class="product-tegels">
                     <h3>Product tegels</h3>
 
-                    <div class="product-tegel">
-                        <h4>Product</h4>
-                        <dl>
-                            <dt>Vergoeding 1</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 2</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 3</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                        </dl>
-                        <h4>€0,00</h4>
-                        <button>Kies</button>
-                    </div>
+                    <div class="d-sm-flex">
+                        <div
+                            class="product-tegel position-relative p-4 container container-product-tegel"
+                        >
+                            <div>
+                                <h5>Product</h5>
+                                <hr class="mb-3 mt-4" />
+                                <dl>
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 1
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 2
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 3
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                </dl>
+                            </div>
 
-                    <div class="product-tegel">
-                        <h4>Product</h4>
-                        <dl>
-                            <dt>Vergoeding 1</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 2</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 3</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 4</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 5</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                        </dl>
-                        <h4>€0,00</h4>
-                        <button>Kies</button>
-                    </div>
+                            <div>
+                                <h4 class="text-center">€0,00</h4>
+                                <button class="btn btn-block btn-product-tegel">
+                                    Kies
+                                </button>
+                            </div>
+                        </div>
 
-                    <div class="product-tegel">
-                        <h4>Product</h4>
-                        <dl>
-                            <dt>Vergoeding 1</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 2</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 3</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                            <dt>Vergoeding 4</dt>
-                            <dd>Lorem ipsum dolor sit amet</dd>
-                        </dl>
-                        <h4>€0,00</h4>
-                        <button>Kies</button>
+                        <div
+                            class="product-tegel position-relative p-4 container container-product-tegel"
+                        >
+                            <div>
+                                <h5>Product</h5>
+                                <hr class="mb-3 mt-4" />
+                                <dl>
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 1
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 2
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 3
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 4
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 5
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                </dl>
+                            </div>
+
+                            <div class="absolute-bottom">
+                                <h4 class="text-center">€0,00</h4>
+                                <button class="btn btn-block btn-product-tegel">
+                                    Kies
+                                </button>
+                            </div>
+                        </div>
+
+                        <div
+                            class="product-tegel position-relative p-4 container container-product-tegel"
+                        >
+                            <div>
+                                <h5>Product</h5>
+                                <hr class="mb-3 mt-4" />
+                                <dl>
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 1
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 2
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 3
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                    <dt class="font-weight-normal">
+                                        Vergoeding 4
+                                    </dt>
+                                    <dd class="font-weight-bold">
+                                        Lorem ipsum dolor sit amet
+                                    </dd>
+                                    <hr class="mb-3 mt-4" />
+                                </dl>
+                            </div>
+                            <div class="absolute-bottom">
+                                <h4 class="text-center">€0,00</h4>
+                                <button class="btn btn-block btn-product-tegel">
+                                    Kies
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -122,6 +213,7 @@
                             viewBox="0 0 320 512"
                             width="16"
                             height="16"
+                            class="arrow"
                         >
                             <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                             <path
@@ -143,6 +235,7 @@
                             width="16"
                             height="16"
                             viewBox="0 0 512 512"
+                            class="loading-spinner"
                         >
                             <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                             <path
@@ -160,6 +253,7 @@
                             viewBox="0 0 512 512"
                             width="16"
                             height="16"
+                            class="heart-beat"
                         >
                             <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                             <path
