@@ -21,14 +21,30 @@
 
                         <p>
                             <span
-                                >value: [1, 2, 2, 3, 2, 3, 4, 5, 4, 1, 4, 5]
+                                >input: [1, 2, 2, 3, 2, 3, 4, 5, 4, 1, 4, 5]
                             </span>
-                            result:
-                            {{
-                                removeDouble([
-                                    1, 2, 2, 3, 2, 3, 4, 5, 4, 1, 4, 5
-                                ])
-                            }}
+                            <span>
+                                result:
+                                {{
+                                    removeDouble([
+                                        1, 2, 2, 3, 2, 3, 4, 5, 4, 1, 4, 5
+                                    ])
+                                }}
+                            </span>
+                        </p>
+
+                        <p>
+                            <span
+                                >input: [1, 2, 10, 3, 2, 9, 0, 5, 9, 1, 8, 8]
+                            </span>
+                            <span>
+                                result:
+                                {{
+                                    removeDouble([
+                                        1, 2, 10, 3, 2, 9, 0, 5, 9, 1, 8, 8
+                                    ])
+                                }}
+                            </span>
                         </p>
                     </div>
 
@@ -39,20 +55,25 @@
                         </p>
                         <code>Resultaat: € 108,25</code>
                         <p>
-                            <span>value : 4, currency: euro </span>
-                            <span>, result : {{ priceMarkup(4) }} </span>
+                            <span>input : 4 & euro, </span>
+                            <span>result : {{ priceMarkup(4) }} </span>
                         </p>
                         <p>
-                            <span>value : 5.2, currency : dollar </span>
+                            <span>input : 5.2 & dollar, </span>
                             <span
-                                >, result : {{ priceMarkup(5.2, 'dollar') }}
+                                >result : {{ priceMarkup(5.2, 'dollar') }}
                             </span>
                         </p>
                         <p>
-                            <span>value : 5.25 currency : yen </span>
+                            <span>input : 5.25 & yen, </span>
                             <span
-                                >, result : {{ priceMarkup(5.25, 'yen') }}
+                                >result : {{ priceMarkup(5.25, 'yen') }}
                             </span>
+                        </p>
+
+                        <p>
+                            <span>input : 15.25, </span>
+                            <span>result : {{ priceMarkup(15.25) }} </span>
                         </p>
                     </div>
 
@@ -63,9 +84,17 @@
                         </p>
                         <code>Hallo, mijn naam is #naam</code>
 
-                        <p>{{ helloMessage('Martijn') }}</p>
-                        <p>{{ helloMessage('Robin') }}</p>
-                        <p>{{ helloMessage('Robin') }}</p>
+                        <p>
+                            input: Martijn, result:
+                            {{ helloMessage('Martijn') }}
+                        </p>
+                        <p>input: Robin, result: {{ helloMessage('Robin') }}</p>
+                        <p>input: Max, result: {{ helloMessage('Max') }}</p>
+                        <p>input: Ad, result: {{ helloMessage('Ad') }}</p>
+                        <p>
+                            input: Robin1332, result:
+                            {{ helloMessage('Robin1332') }}
+                        </p>
                     </div>
                 </div>
             </div>

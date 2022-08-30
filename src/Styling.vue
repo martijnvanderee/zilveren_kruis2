@@ -46,7 +46,7 @@
 
                     <div class="d-sm-flex">
                         <div
-                            class="product-tegel position-relative p-4 container container-product-tegel"
+                            class="product-tegel container container-product-tegel"
                         >
                             <div>
                                 <h5>Product</h5>
@@ -85,7 +85,7 @@
                         </div>
 
                         <div
-                            class="product-tegel position-relative p-4 container container-product-tegel"
+                            class="product-tegel container container-product-tegel"
                         >
                             <div>
                                 <h5>Product</h5>
@@ -138,7 +138,7 @@
                         </div>
 
                         <div
-                            class="product-tegel position-relative p-4 container container-product-tegel"
+                            class="product-tegel container container-product-tegel"
                         >
                             <div>
                                 <h5>Product</h5>

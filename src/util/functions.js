@@ -4,7 +4,7 @@ export const removeDouble = arr => arr.reduce(addUniqueValue, []);
 const addUniqueValue = (arr, ele) => (arr.includes(ele) ? arr : [...arr, ele]);
 
 //2
-export const priceMarkup = (price, currency) =>
+export const priceMarkup = (price, currency = 'euro') =>
     addCurrency(convertPrice(price.toString().split('.')), currency);
 
 const convertPrice = price => {
@@ -19,18 +19,13 @@ const convertPrice = price => {
 const add0 = price => `${price},00`;
 const add00 = price => `${price}0`;
 
-const addCurrency = (price, currency = 'euro') =>
-    `${CURRENCY_SIGNS[currency]} ${price}`;
+const addCurrency = (price, currency) => `${CURRENCY_SIGNS[currency]} ${price}`;
 
 //3
 export const helloMessage = name => {
     const isValidName = RGX_NAME.test(name);
 
-    console.log(name, isValidName);
+    if (isValidName) return `Hallo, mijn naam is ${name}`;
 
-    if (isValidName) {
-        return `Hallo, mijn naam is ${name}`;
-    } else {
-        return `"${name}" is not a real name`;
-    }
+    return `"${name}" is not a real name`;
 };
